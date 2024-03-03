@@ -5,8 +5,8 @@ import Link from 'next/link'
 import Image from 'next/image'
 import { usePathname } from 'next/navigation'
 import { SignedIn, SignedOut, UserButton } from '@clerk/nextjs'
-import { navLinks } from '../../../constants';
 import { Button } from '../ui/button'
+import { navLinks } from '@/constants';
 
 const Sidebar = () => {
     const pathname  = usePathname()
